@@ -18,7 +18,7 @@ validator {
     context: ScriptContext,
   ) -> Bool {
     let must_say_hello =
-      redeemer.msg == "sdfasfdasf"
+      redeemer.msg == "Aiken CLI hello world"
 
     let must_be_signed =
       list.has(context.transaction.extra_signatories, datum.owner)
