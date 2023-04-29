@@ -1,0 +1,16 @@
+# Aiken compilation artifacts
+artifacts/
+# Aiken's project working directory
+build/
+# Aiken's default documentation export
+docs/
+
+*.state
+*.vk
+*.sk
+*.tx
+*.signed
+params.json
+datum.json
+redeemer.json
+script.json
